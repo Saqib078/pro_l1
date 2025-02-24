@@ -1,10 +1,9 @@
-
 import './App.css'
-
+import Compone from './component/Compone'
 function App() {
   return (
     <>
-    <h1>hello</h1>
+    <Compone/>
     </>
   )
 }

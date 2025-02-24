@@ -1,0 +1,43 @@
+.parent {
+    width: 100vw;
+    height: 100vh;
+}
+.children {
+    position: absolute;
+    bottom: 0%;
+    width: 50%;
+    left: 35%;
+    display: flex;
+}
+.but_col{
+    border: 2px solid #333;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30%;
+}
+.bl{
+    background-color: blue;
+    color: #fff;
+}
+.blc{
+    background-color: black;
+    color: #fff;
+}
+.or{
+    background-color: orange;
+    color: #000;
+}
+.yl{
+    background-color: yellow;
+    color: #000;
+}
+.pk{
+    background-color: pink;
+    color: #000;
+}
+.wt{
+    background-color: #fff;
+    color: #000;
+}
