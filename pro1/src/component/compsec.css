@@ -1,0 +1,41 @@
+.state_style {
+    width: 100vw;
+    height: 50vh;
+    background-color: #249c8c;
+}
+.state_style>div{
+    position: absolute;
+    top:20%;
+    left: 45%;
+}
+.state_style>div>div{
+    font-size: 20px;
+    color: aliceblue;
+    margin: 5px;
+}
+.state_style>div>div:nth-child(3), .state_style>div>div:nth-child(4){
+    cursor: pointer;
+    padding: 10px;
+    border:1px solid #fff;
+
+}
+.ref_style{
+    width: 50vw;
+
+}
+.ref_style>div{
+    position: absolute;
+    bottom:20%;
+    left: 45%;
+}
+.ref_style>div>div{
+    font-size: 20px;
+    color: rgb(48, 127, 197);
+    margin: 5px;
+}
+.ref_style>div>div:nth-child(3), .ref_style>div>div:nth-child(4){
+    cursor: pointer;
+    padding: 10px;
+    border:1px solid #1a69d0;
+
+}
