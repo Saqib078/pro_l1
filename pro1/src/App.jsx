@@ -5,6 +5,7 @@ import Home from './Home';
 import Compsec from './component/Compsec';
 import Compthird from './component/Compthird';
 import Compfour from './component/Compfour';
+import Compfive from './component/usecallback/Compfive';
 function App() {
   return (
     <>
@@ -15,6 +16,8 @@ function App() {
           <Route path="/compsec" element={<Compsec />} />
           <Route path="/compthird" element={<Compthird />} />
           <Route path="/compfour" element={<Compfour />} />
+          <Route path="/compfive" element={<Compfive />} />
+
         </Routes>
       </BrowserRouter>
     </>

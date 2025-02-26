@@ -15,6 +15,9 @@ const Home = () => {
         <div>
             <Link to='/compfour'>Compfour</Link>
         </div>
+        <div>
+            <Link to='/compfive'>Compfive</Link>
+        </div>
     </div>
     </>
   )
