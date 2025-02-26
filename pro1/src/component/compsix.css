@@ -1,0 +1,42 @@
+.parent {
+    background-color: aquamarine;
+    padding: 10px;
+}
+.head_first{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.head_first h1{
+    font-size: 40px;
+    color: rgb(20, 116, 199);
+}
+.Copy{
+   width: 100%;
+}
+.Copy>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Copy>div input {
+    background-color: black;
+    padding: 5px 10px;
+    color: #fff;
+    margin: 10px;
+}
+.Copy>div p {
+    background-color: rgb(32, 45, 223);
+    padding: 5px 10px;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+}
+.conditions{
+    display: flex;
+    justify-content: center;
+}
+.conditions>div{
+    padding: 10px;
+    align-items: center;
+}

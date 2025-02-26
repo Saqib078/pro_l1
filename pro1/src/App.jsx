@@ -6,6 +6,7 @@ import Compsec from './component/Compsec';
 import Compthird from './component/Compthird';
 import Compfour from './component/Compfour';
 import Compfive from './component/usecallback/Compfive';
+import Compsix from './component/Compsix';
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/compthird" element={<Compthird />} />
           <Route path="/compfour" element={<Compfour />} />
           <Route path="/compfive" element={<Compfive />} />
+          <Route path="/compsix" element={<Compsix />} />
 
         </Routes>
       </BrowserRouter>

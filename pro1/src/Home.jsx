@@ -18,6 +18,9 @@ const Home = () => {
         <div>
             <Link to='/compfive'>Compfive</Link>
         </div>
+        <div>
+            <Link to='/compsix'>Compsix</Link>
+        </div>
     </div>
     </>
   )
